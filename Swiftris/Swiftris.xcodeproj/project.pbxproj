@@ -26,6 +26,10 @@
 		FA10089819D70B0400321E4A /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089219D70B0400321E4A /* background@2x.png */; };
 		FA10089919D70B0400321E4A /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089319D70B0400321E4A /* gameboard.png */; };
 		FA10089A19D70B0400321E4A /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089419D70B0400321E4A /* gameboard@2x.png */; };
+		FA10089E19D711BA00321E4A /* whitebg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089B19D711BA00321E4A /* whitebg@3x.png */; };
+		FA10089F19D711BA00321E4A /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089C19D711BA00321E4A /* background@3x.png */; };
+		FA1008A019D711BA00321E4A /* gameboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089D19D711BA00321E4A /* gameboard@3x.png */; };
+		FA1008A219D7132900321E4A /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1008A119D7132900321E4A /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		FA10089219D70B0400321E4A /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		FA10089319D70B0400321E4A /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
 		FA10089419D70B0400321E4A /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		FA10089B19D711BA00321E4A /* whitebg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@3x.png"; sourceTree = "<group>"; };
+		FA10089C19D711BA00321E4A /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
+		FA10089D19D711BA00321E4A /* gameboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@3x.png"; sourceTree = "<group>"; };
+		FA1008A119D7132900321E4A /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 				FA10088D19D70ACD00321E4A /* Sprites.atlas */,
 				FA10088219D70AC500321E4A /* Sounds */,
 				FA10085C19D7083800321E4A /* Supporting Files */,
+				FA1008A119D7132900321E4A /* Array2D.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 		FA10085C19D7083800321E4A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA10089B19D711BA00321E4A /* whitebg@3x.png */,
+				FA10089C19D711BA00321E4A /* background@3x.png */,
+				FA10089D19D711BA00321E4A /* gameboard@3x.png */,
 				FA10088F19D70B0400321E4A /* whitebg.png */,
 				FA10089019D70B0400321E4A /* whitebg@2x.png */,
 				FA10089119D70B0400321E4A /* background.png */,
@@ -239,12 +251,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1008A019D711BA00321E4A /* gameboard@3x.png in Resources */,
+				FA10089F19D711BA00321E4A /* background@3x.png in Resources */,
 				FA10086D19D7083800321E4A /* LaunchScreen.xib in Resources */,
 				FA10089719D70B0400321E4A /* background.png in Resources */,
 				FA10088919D70AC500321E4A /* drop.mp3 in Resources */,
 				FA10089A19D70B0400321E4A /* gameboard@2x.png in Resources */,
 				FA10088C19D70AC500321E4A /* theme.mp3 in Resources */,
 				FA10089919D70B0400321E4A /* gameboard.png in Resources */,
+				FA10089E19D711BA00321E4A /* whitebg@3x.png in Resources */,
 				FA10088A19D70AC500321E4A /* gameover.mp3 in Resources */,
 				FA10086A19D7083800321E4A /* Images.xcassets in Resources */,
 				FA10089819D70B0400321E4A /* background@2x.png in Resources */,
@@ -272,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA10086319D7083800321E4A /* GameScene.swift in Sources */,
+				FA1008A219D7132900321E4A /* Array2D.swift in Sources */,
 				FA10086519D7083800321E4A /* GameViewController.swift in Sources */,
 				FA10085F19D7083800321E4A /* AppDelegate.swift in Sources */,
 			);
