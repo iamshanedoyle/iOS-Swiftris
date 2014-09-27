@@ -30,6 +30,7 @@
 		FA10089F19D711BA00321E4A /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089C19D711BA00321E4A /* background@3x.png */; };
 		FA1008A019D711BA00321E4A /* gameboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089D19D711BA00321E4A /* gameboard@3x.png */; };
 		FA1008A219D7132900321E4A /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1008A119D7132900321E4A /* Array2D.swift */; };
+		FA1008A419D71A2100321E4A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1008A319D71A2100321E4A /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		FA10089C19D711BA00321E4A /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@3x.png"; sourceTree = "<group>"; };
 		FA10089D19D711BA00321E4A /* gameboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@3x.png"; sourceTree = "<group>"; };
 		FA1008A119D7132900321E4A /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		FA1008A319D71A2100321E4A /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				FA10088219D70AC500321E4A /* Sounds */,
 				FA10085C19D7083800321E4A /* Supporting Files */,
 				FA1008A119D7132900321E4A /* Array2D.swift */,
+				FA1008A319D71A2100321E4A /* Block.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				FA10086319D7083800321E4A /* GameScene.swift in Sources */,
 				FA1008A219D7132900321E4A /* Array2D.swift in Sources */,
+				FA1008A419D71A2100321E4A /* Block.swift in Sources */,
 				FA10086519D7083800321E4A /* GameViewController.swift in Sources */,
 				FA10085F19D7083800321E4A /* AppDelegate.swift in Sources */,
 			);
