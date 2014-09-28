@@ -31,6 +31,10 @@
 		FA1008A019D711BA00321E4A /* gameboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10089D19D711BA00321E4A /* gameboard@3x.png */; };
 		FA1008A219D7132900321E4A /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1008A119D7132900321E4A /* Array2D.swift */; };
 		FA1008A419D71A2100321E4A /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1008A319D71A2100321E4A /* Block.swift */; };
+		FA720E4219D86FD2003948EF /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA720E4119D86FD2003948EF /* Shape.swift */; };
+		FAD774E319D882D4008938DC /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD774E219D882D4008938DC /* SquareShape.swift */; };
+		FAD774E519D885C2008938DC /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD774E419D885C2008938DC /* TShape.swift */; };
+		FAD774E719D88A4A008938DC /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD774E619D88A4A008938DC /* LineShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,10 @@
 		FA10089D19D711BA00321E4A /* gameboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@3x.png"; sourceTree = "<group>"; };
 		FA1008A119D7132900321E4A /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		FA1008A319D71A2100321E4A /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		FA720E4119D86FD2003948EF /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FAD774E219D882D4008938DC /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		FAD774E419D885C2008938DC /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		FAD774E619D88A4A008938DC /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 				FA10085C19D7083800321E4A /* Supporting Files */,
 				FA1008A119D7132900321E4A /* Array2D.swift */,
 				FA1008A319D71A2100321E4A /* Block.swift */,
+				FA720E4119D86FD2003948EF /* Shape.swift */,
+				FAD774E219D882D4008938DC /* SquareShape.swift */,
+				FAD774E419D885C2008938DC /* TShape.swift */,
+				FAD774E619D88A4A008938DC /* LineShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -289,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD774E319D882D4008938DC /* SquareShape.swift in Sources */,
 				FA10086319D7083800321E4A /* GameScene.swift in Sources */,
+				FA720E4219D86FD2003948EF /* Shape.swift in Sources */,
 				FA1008A219D7132900321E4A /* Array2D.swift in Sources */,
+				FAD774E719D88A4A008938DC /* LineShape.swift in Sources */,
+				FAD774E519D885C2008938DC /* TShape.swift in Sources */,
 				FA1008A419D71A2100321E4A /* Block.swift in Sources */,
 				FA10086519D7083800321E4A /* GameViewController.swift in Sources */,
 				FA10085F19D7083800321E4A /* AppDelegate.swift in Sources */,
@@ -485,6 +501,7 @@
 				FA10087E19D7083800321E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA10087F19D7083800321E4A /* Build configuration list for PBXNativeTarget "SwiftrisTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				FA10088119D7083800321E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
